@@ -25,7 +25,7 @@ body {
     background: linear-gradient(
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)),
-        url(/img/lucario\ fondo.jpg);
+        url(../img/lucario\ fondo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 70vh;
@@ -167,7 +167,7 @@ p {
     background: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)),
-        url(/img/hoenn.png);
+        url(../img/hoenn.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -182,7 +182,7 @@ p {
     background: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)),
-        url(/img/startersimg.jpg);
+        url(../img/startersimg.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -197,7 +197,7 @@ p {
     background: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)),
-        url(/img/campeonimg.jpg);
+        url(../img/campeonimg.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -212,7 +212,7 @@ p {
     background: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)),
-        url(/img/contacto.jpeg);
+        url(../img/contacto.jpeg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -240,7 +240,7 @@ p {
     background: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)),
-        url(/img/zera\ fondo.jpg);
+        url(../img/zera\ fondo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
