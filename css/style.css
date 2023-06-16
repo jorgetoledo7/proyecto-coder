@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
-/* font-family: 'Bebas Neue', sans-serif; */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +12,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #161815;
 }
+
+/* ----------------------- HEADER INICIO ------------------- */
 
 .container {
   max-width: 1200px;
@@ -118,6 +120,10 @@ body {
 .header-img a {
   margin-bottom: 40px;
 }
+
+/* ----------------------- HEADER FIN ------------------- */
+
+/* ----------------------- INDEX MAIN INICIO ------------------- */
 
 .pokemon {
   padding: 100px 0;
@@ -237,6 +243,9 @@ p {
   border-radius: 10px;
 }
 
+/* ----------------------- INDEX MAIN FIN ------------------- */
+
+/* ----------------------- INDEX FOOTER/FORMR INICIO ------------------- */
 .footer-bg {
   text-align: center;
   padding: 100px 0;
@@ -274,6 +283,9 @@ textarea {
   background-color: #070707;
 }
 
+/* ----------------------- INDEX FOOTER/FORM FIN ------------------- */
+
+/* ----------------------- CAMPEONES MAIN INICIO ------------------- */
 .trainer {
   padding: 100px;
   align-items: center;
@@ -311,6 +323,9 @@ h3 {
   font-size: 30px;
 }
 
+/* ----------------------- CAMPEONES MAIN FIN ------------------- */
+
+/* ----------------------- INICIALES MAIN INICIO ------------------- */
 .iniciales-img {
   width: 100%;
 }
@@ -391,6 +406,9 @@ h3 {
   margin: 0;
 }
 
+/* ----------------------- REGIONES MAIN FIN ------------------- */
+
+/* ----------------------- MOBILE INICIO ------------------- */
 @media (max-width: 991px) {
   .menu {
     padding: 20px;
@@ -513,9 +531,34 @@ h3 {
     text-align: center;
   }
 
-  .trainer-img2 {
-    display: none;
+  .trainer {
+    padding: 30px;
   }
+  .trainer-content {
+    flex-direction: column;
+  }
+
+  .trainer-img {
+    width: 100%;
+  }
+
+  .trainer-img img {
+    display: flex;
+    width: 300px;
+  }
+
+  .trainer-img2 {
+    width: 100%;
+  }
+
+.trainer-img2 img {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 350px;
+  margin-top: 50px;
+  border-bottom: 2px solid #FFFFFF;
+}
 
   .team-list {
     width: 100%;
@@ -525,14 +568,32 @@ h3 {
     font-size: 30px;
   }
 
-.iniciales-img2 {
-  width: 100%;
-}
+  .iniciales {
+    padding: 30px;
+  }
+  .iniciales-content {
+    flex-direction: column;
+  }
+
+  .iniciales-img {
+    width: 100%;
+  }
+
+  .iniciales-img img {
+    display: flex;
+    width: 300px; 
+  }
+
+  .iniciales-img2 {
+    width: 100%;
+  }
 
 .iniciales-img2 img {
   display: flex;
-  margin: auto;
-  width: 400px;
+  align-items: center;
+  align-content: center;
+  width: 350px;
+  margin-top: 50px;
   border-bottom: 2px solid #FFFFFF;
 }
 

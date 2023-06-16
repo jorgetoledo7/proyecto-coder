@@ -1,607 +1,578 @@
+$color_1: #FFFFFF;
+$color_2: #13975e;
+$color_3: #c4c4c4;
+$color_4: #e1e1e1;
+$font-family_1: Arial, Helvetica, sans-serif;
+$font-family_2: "Bebas Neue", cursive;
+$font-family_3: 'Bebas Neue', cursive;
+$font-family_4: 'Bebas Neue', sans-serif;
+$background-color_1: #161815;
+$background-color_2: #13975e;
+$background-color_3: #19c67b;
+$background-color_4: #0e0e0e;
+$background-color_5: #070707;
+
 @import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
-
-/* font-family: 'Bebas Neue', sans-serif; */
-
+/*# sourceMappingURL=style.css.map */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
 }
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #161815;
+	font-family: $font-family_1;
+	background-color: $background-color_1;
 }
 
 /* ----------------------- HEADER INICIO ------------------- */
-
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
-
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/lucario\ fondo.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/lucario\ fondo.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
 }
-
 .menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1000;
-
-  .navbar ul li {
-    position: relative;
-    float: left;
-
-    a {
-      font-size: 18px;
-      padding: 20px;
-      color: #FFFFFF;
-      display: block;
-
-      &:hover {
-        color: #13975e;
-      }
-    }
-  }
-
-  label {
-    cursor: pointer;
-    display: none;
-  }
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	.navbar {
+		ul {
+			li {
+				position: relative;
+				float: left;
+				a {
+					font-size: 18px;
+					padding: 20px;
+					color: $color_1;
+					display: block;
+					&:hover {
+						color: $color_2;
+					}
+				}
+			}
+		}
+	}
+	label {
+		cursor: pointer;
+		display: none;
+	}
 }
-
 .logo {
-  font-size: 24px;
-  color: #FFFFFF;
-  font-weight: bold;
-  text-transform: uppercase;
+	font-size: 24px;
+	color: $color_1;
+	font-weight: bold;
+	text-transform: uppercase;
 }
-
 #menu {
-  display: none;
+	display: none;
 }
-
 .menu-icono {
-  width: 25px;
+	width: 25px;
 }
-
 .header-content {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
-
 .header-txt {
-  width: 70%;
-
-  h1 {
-    font-size: 120px;
-    line-height: 130px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-family: "Bebas Neue", cursive;
-    margin-bottom: 25px;
-  }
-
-  p {
-    font-size: 18px;
-    color: #c4c4c4;
-    margin-bottom: 35px;
-    border-left: 1px solid #FFFFFF;
-    padding-left: 15px;
-  }
+	width: 70%;
+	h1 {
+		font-size: 120px;
+		line-height: 130px;
+		color: $color_1;
+		text-transform: uppercase;
+		font-family: $font-family_2;
+		margin-bottom: 25px;
+	}
+	p {
+		font-size: 18px;
+		color: $color_3;
+		margin-bottom: 35px;
+		border-left: 1px solid #FFFFFF;
+		padding-left: 15px;
+	}
 }
-
 .btn-1 {
-  display: inline-block;
-  padding: 12px 35px;
-  background-color: #13975e;
-  border-radius: 10px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-family: "Bebas Neue", cursive;
-  margin-top: 25px;
-
-  &:hover {
-    background-color: #19c67b;
-  }
+	display: inline-block;
+	padding: 12px 35px;
+	background-color: $background-color_2;
+	border-radius: 10px;
+	color: $color_1;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: $font-family_2;
+	margin-top: 25px;
+	&:hover {
+		background-color: $background-color_3;
+	}
 }
-
 .header-img {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-
-  a {
-    margin-bottom: 40px;
-  }
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	a {
+		margin-bottom: 40px;
+	}
 }
 
 /* ----------------------- HEADER FIN ------------------- */
 
 /* ----------------------- INDEX MAIN INICIO ------------------- */
-
 .pokemon {
-  padding: 100px 0;
-  text-align: center;
+	padding: 100px 0;
+	text-align: center;
 }
-
 h2 {
-  font-family: "Bebas Neue", cursive;
-  letter-spacing: 1px;
-  font-size: 85px;
-  line-height: 95px;
-  color: #FFFFFF;
-  margin-bottom: 15px;
+	font-family: $font-family_2;
+	letter-spacing: 1px;
+	font-size: 85px;
+	line-height: 95px;
+	color: $color_1;
+	margin-bottom: 15px;
 }
-
 p {
-  font-size: 18px;
-  color: #c4c4c4;
+	font-size: 18px;
+	color: $color_3;
 }
-
 .pokemon-content {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
 }
-
 .pokemon-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/hoenn.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-  width: 250px;
-  border-radius: 10px;
-  padding: 25px;
-  margin-bottom: 20px;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/hoenn.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 25px;
+	margin-bottom: 20px;
 }
-
 .pokemon-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/startersimg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-  width: 250px;
-  border-radius: 10px;
-  padding: 25px;
-  margin-bottom: 20px;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/startersimg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 25px;
+	margin-bottom: 20px;
 }
-
 .pokemon-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/campeonimg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-  width: 250px;
-  border-radius: 10px;
-  padding: 25px;
-  margin-bottom: 20px;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/campeonimg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 25px;
+	margin-bottom: 20px;
 }
-
 .pokemon-4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/contacto.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-  width: 250px;
-  border-radius: 10px;
-  padding: 25px;
-  margin-bottom: 20px;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/contacto.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 25px;
+	margin-bottom: 20px;
 }
-
 .pokemon-txt {
-  h3 {
-    font-family: "Bebas Neue", cursive;
-    font-size: 40px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-  }
-
-  p {
-    color: #e1e1e1;
-  }
+	h3 {
+		font-family: $font-family_2;
+		font-size: 40px;
+		color: $color_1;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+	}
+	p {
+		color: $color_4;
+	}
 }
-
 .video {
-  padding: 150px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/zera\ fondo.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	padding: 150px 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/zera\ fondo.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
 .video-content {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
-
 .video-1 {
-  width: 50%;
-  padding-right: 70px;
+	width: 50%;
+	padding-right: 70px;
 }
-
 .video-2 {
-  width: 50%;
-  display: flex;
+	width: 50%;
+	display: flex;
 }
-
 .v1 {
-  width: 300px;
-  margin-right: 25px;
-  border-radius: 10px;
+	width: 300px;
+	margin-right: 25px;
+	border-radius: 10px;
 }
-
 .v2 {
-  width: 300px;
-  border-radius: 10px;
+	width: 300px;
+	border-radius: 10px;
 }
 
 /* ----------------------- INDEX MAIN FIN ------------------- */
 
 /* ----------------------- INDEX FOOTER/FORMR INICIO ------------------- */
-
 .footer-bg {
-  text-align: center;
-  padding: 100px 0;
+	text-align: center;
+	padding: 100px 0;
 }
-
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-
 .campo-1 {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
-
 .campo {
-  margin: 5px;
-  padding: 20px 15px;
-  width: 250px;
-  background-color: #0e0e0e;
-  border: 1px solid #13975e;
-  outline: none;
-  border-radius: 10px;
-  color: #FFFFFF;
-  font-size: 14px;
+	margin: 5px;
+	padding: 20px 15px;
+	width: 250px;
+	background-color: $background-color_4;
+	border: 1px solid #13975e;
+	outline: none;
+	border-radius: 10px;
+	color: $color_1;
+	font-size: 14px;
 }
-
 textarea {
-  width: 520px !important;
+	width: 520px !important;
 }
-
 .footer-txt {
-  text-align: center;
-  padding: 20px;
-  background-color: #070707;
+	text-align: center;
+	padding: 20px;
+	background-color: $background-color_5;
 }
 
 /* ----------------------- INDEX FOOTER/FORM FIN ------------------- */
 
 /* ----------------------- CAMPEONES MAIN INICIO ------------------- */
-
 .trainer {
-  padding: 100px;
-  align-items: center;
-  text-align: center;
+	padding: 100px;
+	align-items: center;
+	text-align: center;
 }
-
 .trainer-img {
-  width: 100%;
-
-  img {
-    width: 300px;
-  }
+	width: 100%;
+	img {
+		width: 300px;
+	}
 }
+
+/* ----------------------- CAMPEONES MAIN FIN ------------------- */
 
 /* ----------------------- INICIALES MAIN INICIO ------------------- */
-
 .iniciales {
-  padding: 100px;
-  align-items: center;
-  text-align: center;
+	padding: 100px;
+	align-items: center;
+	text-align: center;
 }
-
 h3 {
-  font-family: "Bebas Neue", cursive;
-  letter-spacing: 1px;
-  font-size: 40px;
-  line-height: 95px;
-  color: #FFFFFF;
-  margin-bottom: 15px;
+	font-family: $font-family_2;
+	letter-spacing: 1px;
+	font-size: 40px;
+	line-height: 95px;
+	color: $color_1;
+	margin-bottom: 15px;
 }
-
 .team-list {
-  width: 100%;
-  align-items: center;
-  font-family: 'Bebas Neue', cursive;
-  color: #FFFFFF;
-  font-size: 30px;
+	width: 100%;
+	align-items: center;
+	font-family: $font-family_3;
+	color: $color_1;
+	font-size: 30px;
 }
-
 .iniciales-img {
-  width: 100%;
-
-  img {
-    width: 400px;
-  }
+	width: 100%;
+	img {
+		width: 400px;
+	}
 }
-
 .iniciales-img2 {
-  width: 100%;
-
-  img {
-    width: 1200px;
-    margin-top: -110px;
-  }
+	width: 100%;
+	img {
+		width: 1200px;
+		margin-top: -110px;
+	}
 }
 
 /* ----------------------- INICIALES MAIN FIN ------------------- */
 
 /* ----------------------- REGIONES MAIN INICIO ------------------- */
-
 .region1 {
-  padding: 100px 0;
-  background-color: #161815;
+	padding: 100px 0;
+	background-color: $background-color_1;
 }
-
 .region1-content {
-  display: flex;
-  position: relative;
+	display: flex;
+	position: relative;
 }
-
 .region1-img {
-  padding: 60px 0 0;
-  width: 60%;
-  text-align: center;
-
-  img {
-    width: 500px;
-  }
+	padding: 60px 0 0;
+	width: 60%;
+	text-align: center;
+	img {
+		width: 500px;
+	}
 }
-
 .region1-txt {
-  width: 40%;
+	width: 40%;
 }
-
-/* ----------------------- REGIONES MAIN INICIO ------------------- */
-
-
-/* ----------------------- FOOTER REGIONES INICIO ------------------- */
-
 .footer-regiones {
-  border-top: 2px solid #070707;
-  padding: 50px 0 0 0;
+	border-top: 2px solid #070707;
+	padding: 50px 0 0 0;
 }
-
 .footer-links {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
 }
-
-.socials-2 img {
-  width: 30px;
-  margin: 10px;
+.socials-2 {
+	img {
+		width: 30px;
+		margin: 10px;
+	}
 }
-
 .link {
-  h3 {
-    font-size: 22px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-  }
-
-  a {
-    font-size: 18px;
-    display: block;
-    color: #c4c4c4;
-    margin-bottom: 20px;
-
-    &:hover {
-      color: #13975e;
-    }
-  }
+	h3 {
+		font-size: 22px;
+		color: $color_1;
+		margin-bottom: 15px;
+	}
+	a {
+		font-size: 18px;
+		display: block;
+		color: $color_3;
+		margin-bottom: 20px;
+		&:hover {
+			color: $color_2;
+		}
+	}
 }
-
 .footer-copy {
-  padding: 25px 0;
-  text-align: center;
-  border-top: 1px solid #FFFFFF;
-
-  p {
-    color: #FFFFFF;
-    font-size: 16px;
-    margin: 0;
-  }
+	padding: 25px 0;
+	text-align: center;
+	border-top: 1px solid #FFFFFF;
+	p {
+		color: $color_1;
+		font-size: 16px;
+		margin: 0;
+	}
 }
+
+/* ----------------------- REGIONES MAIN FIN ------------------- */
 
 /* ----------------------- MOBILE INICIO ------------------- */
-
 @media (max-width: 991px) {
-  .menu {
-    padding: 20px;
-
-    label {
-      display: initial;
-    }
-
-    .navbar {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      background-color: #161815;
-      display: none;
-
-      ul li {
-        width: 100%;
-      }
-    }
-  }
-
-  #menu:checked ~ .navbar {
-    display: initial;
-  }
-
-  .header {
-    min-height: 0vh;
-  }
-
-  .header-content {
-    flex-direction: column;
-    padding: 100px 30px 30px 30px;
-  }
-
-  .header-txt {
-    width: 100%;
-    text-align: center;
-
-    h1 {
-      font-size: 80px;
-      line-height: 90px;
-      margin-bottom: 15px;
-    }
-
-    p {
-      border: 0;
-      padding: 0;
-      margin-bottom: 15px;
-    }
-  }
-
-  .btn-1 {
-    margin: 20px 0;
-  }
-
-  .header-img {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 25px;
-
-    a {
-      margin: 0 10px;
-    }
-  }
-
-  .pokemon {
-    padding: 30px;
-  }
-
-  .pokemon-content {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-  }
-
-  .video {
-    padding: 30px;
-  }
-
-  .video-content {
-    flex-direction: column;
-  }
-
-  .video-1 {
-    width: 100%;
-    padding-right: 0;
-    text-align: center;
-  }
-
-  .video-2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .v1, .v2 {
-    width: 250px;
-    margin: 0 0 20px 0;
-  }
-
-  .footer-bg {
-    padding: 30px;
-  }
-
-  textarea {
-    width: 250px !important;
-  }
-
-  .footer-txt, .region1 {
-    padding: 30px;
-  }
-
-  .region1-content {
-    flex-direction: column;
-  }
-
-  .region1-img {
-    width: 100%;
-    order: 2;
-
-    img {
-      width: 400px;
-    }
-  }
-
-  .region1-txt {
-    width: 100%;
-    align-items: center;
-    border-top: 2px solid #FFFFFF;
-  }
-
-  .footer-regiones {
-    padding: 30px 30px 0 30px;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .trainer-img2 {
-    display: none;
-  }
-
-  .team-list {
-    width: 100%;
-    align-items: center;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #FFFFFF;
-    font-size: 30px;
-  }
-
-  .iniciales-img2 {
-    width: 100%;
-
-    img {
-      display: flex;
-      margin: auto;
-      width: 400px;
+	.menu {
+		padding: 20px;
+		label {
+			display: initial;
+		}
+		.navbar {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			background-color: $background-color_1;
+			display: none;
+			ul {
+				li {
+					width: 100%;
+				}
+			}
+		}
+	}
+	#menu {
+		&:checked {
+			~ {
+				.navbar {
+					display: initial;
+				}
+			}
+		}
+	}
+	.header {
+		min-height: 0vh;
+	}
+	.header-content {
+		flex-direction: column;
+		padding: 100px 30px 30px 30px;
+	}
+	.header-txt {
+		width: 100%;
+		text-align: center;
+		h1 {
+			font-size: 80px;
+			line-height: 90px;
+			margin-bottom: 15px;
+		}
+		p {
+			border: 0;
+			padding: 0;
+			margin-bottom: 15px;
+		}
+	}
+	.btn-1 {
+		margin: 20px 0;
+	}
+	.header-img {
+		width: 100%;
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 25px;
+		a {
+			margin: 0 10px;
+		}
+	}
+	.pokemon {
+		padding: 30px;
+	}
+	.pokemon-content {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 30px;
+	}
+	.video {
+		padding: 30px;
+	}
+	.video-content {
+		flex-direction: column;
+	}
+	.video-1 {
+		width: 100%;
+		padding-right: 0;
+		text-align: center;
+	}
+	.video-2 {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.v1 {
+		width: 250px;
+		margin: 0 0 20px 0;
+	}
+	.v2 {
+		width: 250px;
+		margin: 0 0 20px 0;
+	}
+	.footer-bg {
+		padding: 30px;
+	}
+	textarea {
+		width: 250px !important;
+	}
+	.footer-txt {
+		padding: 30px;
+	}
+	.region1 {
+		padding: 30px;
+	}
+	.region1-content {
+		flex-direction: column;
+	}
+	.region1-img {
+		width: 100%;
+		order: 2;
+		img {
+			width: 400px;
+		}
+	}
+	.region1-txt {
+		width: 100%;
+		align-items: center;
+		border-top: 2px solid #FFFFFF;
+	}
+	.footer-regiones {
+		padding: 30px 30px 0 30px;
+	}
+	.footer-links {
+		flex-direction: column;
+		text-align: center;
+	}
+	.trainer {
+		padding: 30px;
+	}
+	.trainer-content {
+		flex-direction: column;
+	}
+	.trainer-img {
+		width: 100%;
+		img {
+			display: flex;
+			width: 300px;
+		}
+	}
+	.trainer-img2 {
+		width: 100%;
+		img {
+			display: flex;
+			align-items: center;
+			align-content: center;
+			width: 350px;
+			margin-top: 50px;
       border-bottom: 2px solid #FFFFFF;
-    }
-  }
+		}
+	}
+	.team-list {
+		width: 100%;
+		align-items: center;
+		font-family: $font-family_4;
+		color: $color_1;
+		font-size: 30px;
+	}
+	.iniciales {
+		padding: 30px;
+	}
+	.iniciales-content {
+		flex-direction: column;
+	}
+	.iniciales-img {
+		width: 100%;
+		img {
+			display: flex;
+			width: 300px;
+		}
+	}
+	.iniciales-img2 {
+		width: 100%;
+		img {
+			display: flex;
+			align-items: center;
+			align-content: center;
+			width: 350px;
+			margin-top: 50px;
+      border-bottom: 2px solid #FFFFFF;
+		}
+	}
 }
