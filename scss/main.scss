@@ -13,7 +13,11 @@ $background-color_4: #0e0e0e;
 $background-color_5: #070707;
 
 @import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+
 /*# sourceMappingURL=style.css.map */
+
+/* ----------------------- HEADER INICIO ------------------- */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -25,8 +29,6 @@ body {
 	font-family: $font-family_1;
 	background-color: $background-color_1;
 }
-
-/* ----------------------- HEADER INICIO ------------------- */
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -286,10 +288,6 @@ textarea {
 		width: 300px;
 	}
 }
-
-/* ----------------------- CAMPEONES MAIN FIN ------------------- */
-
-/* ----------------------- INICIALES MAIN INICIO ------------------- */
 .iniciales {
 	padding: 100px;
 	align-items: center;
@@ -310,6 +308,10 @@ h3 {
 	color: $color_1;
 	font-size: 30px;
 }
+
+/* ----------------------- CAMPEONES MAIN FIN ------------------- */
+
+/* ----------------------- INICIALES MAIN INICIO ------------------- */
 .iniciales-img {
 	width: 100%;
 	img {
@@ -323,10 +325,6 @@ h3 {
 		margin-top: -110px;
 	}
 }
-
-/* ----------------------- INICIALES MAIN FIN ------------------- */
-
-/* ----------------------- REGIONES MAIN INICIO ------------------- */
 .region1 {
 	padding: 100px 0;
 	background-color: $background-color_1;
@@ -541,7 +539,7 @@ h3 {
 			align-content: center;
 			width: 350px;
 			margin-top: 50px;
-      border-bottom: 2px solid #FFFFFF;
+			border-bottom: 2px solid #FFFFFF;
 		}
 	}
 	.team-list {
@@ -572,7 +570,7 @@ h3 {
 			align-content: center;
 			width: 350px;
 			margin-top: 50px;
-      border-bottom: 2px solid #FFFFFF;
+			border-bottom: 2px solid #FFFFFF;
 		}
 	}
 }
