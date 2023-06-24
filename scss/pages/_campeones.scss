@@ -1,0 +1,47 @@
+.trainer {
+	padding: 100px;
+	align-items: center;
+	text-align: center;
+}
+
+.trainer-content {
+h2 {
+	font-family: $font-family_2;
+	letter-spacing: 1px;
+	font-size: 85px;
+	line-height: 95px;
+	color: $color_1;
+	margin-bottom: 15px;
+}
+}
+
+.trainer-txt {
+h3 {
+	font-family: $font-family_2;
+	letter-spacing: 1px;
+	font-size: 40px;
+	line-height: 95px;
+	color: $color_1;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 18px;
+	color: $color_3;
+}
+}
+
+.trainer-img {
+	width: 100%;
+	img {
+		width: 300px;
+	}
+}
+
+.team-list {
+	width: 100%;
+	align-items: center;
+	font-family: $font-family_3;
+	color: $color_1;
+	font-size: 30px;
+}

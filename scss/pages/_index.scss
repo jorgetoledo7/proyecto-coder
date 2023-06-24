@@ -1,0 +1,105 @@
+.pokemon {
+	padding: 100px 0;
+	text-align: center;
+}
+h2 {
+	font-family: $font-family_2;
+	letter-spacing: 1px;
+	font-size: 85px;
+	line-height: 95px;
+	color: $color_1;
+	margin-bottom: 15px;
+}
+p {
+	font-size: 18px;
+	color: $color_3;
+}
+.pokemon-content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.pokemon-1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/hoenn.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 25px;
+	margin-bottom: 20px;
+}
+.pokemon-2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/startersimg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 25px;
+	margin-bottom: 20px;
+}
+.pokemon-3 {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/campeonimg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 25px;
+	margin-bottom: 20px;
+}
+.pokemon-4 {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/contacto.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 25px;
+	margin-bottom: 20px;
+}
+.pokemon-txt {
+	h3 {
+		font-family: $font-family_2;
+		font-size: 40px;
+		color: $color_1;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+	}
+	p {
+		color: $color_4;
+	}
+}
+.video {
+	padding: 150px 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/zera\ fondo.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.video-content {
+	display: flex;
+	align-items: center;
+}
+.video-1 {
+	width: 50%;
+	padding-right: 70px;
+}
+.video-2 {
+	width: 50%;
+	display: flex;
+}
+.v1 {
+	width: 300px;
+	margin-right: 25px;
+	border-radius: 10px;
+}
+.v2 {
+	width: 300px;
+	border-radius: 10px;
+}

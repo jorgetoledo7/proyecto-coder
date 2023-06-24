@@ -1,0 +1,33 @@
+.region1 {
+	padding: 100px 0;
+	background-color: $background-color_1;
+}
+
+.region1-content {
+	display: flex;
+	position: relative;
+}
+.region1-img {
+	padding: 60px 0 0;
+	width: 60%;
+	text-align: center;
+	img {
+		width: 500px;
+	}
+}
+.region1-txt {
+	width: 40%;
+}
+
+h2 {
+	font-family: $font-family_2;
+	letter-spacing: 1px;
+	font-size: 85px;
+	line-height: 95px;
+	color: $color_1;
+	margin-bottom: 15px;
+}
+p {
+	font-size: 18px;
+	color: $color_3;
+}

@@ -1,0 +1,31 @@
+$color_1: #FFFFFF;
+$color_2: #13975e;
+$color_3: #c4c4c4;
+$color_4: #e1e1e1;
+$font-family_1: Arial, Helvetica, sans-serif;
+$font-family_2: "Bebas Neue", cursive;
+$font-family_3: 'Bebas Neue', cursive;
+$font-family_4: 'Bebas Neue', sans-serif;
+$background-color_1: #161815;
+$background-color_2: #13975e;
+$background-color_3: #19c67b;
+$background-color_4: #0e0e0e;
+$background-color_5: #070707;
+
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	font-family: $font-family_1;
+	background-color: $background-color_1;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}

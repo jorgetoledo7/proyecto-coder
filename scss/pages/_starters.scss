@@ -1,0 +1,42 @@
+.iniciales {
+	padding: 100px;
+	align-items: center;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 1px;
+	font-size: 40px;
+	line-height: 95px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+  }
+
+  p {
+	font-size: 18px;
+	color: $color_3;
+}
+
+
+.iniciales-img {
+	width: 100%;
+	img {
+		width: 400px;
+	}
+}
+
+.team-list {
+	width: 100%;
+	align-items: center;
+	font-family: $font-family_3;
+	color: $color_1;
+	font-size: 30px;
+}
+
+.iniciales-img2 {
+	width: 100%;
+	img {
+		width: 1200px;
+	}
+}

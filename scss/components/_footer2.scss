@@ -1,0 +1,41 @@
+.footer-regiones {
+	border-top: 2px solid #070707;
+	padding: 50px 0 0 0;
+}
+.footer-links {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.socials-2 {
+	img {
+		width: 30px;
+		margin: 10px;
+	}
+}
+.link {
+	h3 {
+		font-size: 22px;
+		color: $color_1;
+		margin-bottom: 15px;
+	}
+	a {
+		font-size: 18px;
+		display: block;
+		color: $color_3;
+		margin-bottom: 20px;
+		&:hover {
+			color: $color_2;
+		}
+	}
+}
+.footer-copy {
+	padding: 25px 0;
+	text-align: center;
+	border-top: 1px solid #FFFFFF;
+	p {
+		color: $color_1;
+		font-size: 16px;
+		margin: 0;
+	}
+}
